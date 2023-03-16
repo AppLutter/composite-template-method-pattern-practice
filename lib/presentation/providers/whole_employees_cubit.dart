@@ -1,9 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:composite_template_method_practice/datas/whole_employees.dart';
 import 'package:composite_template_method_practice/enums/enum_absent_status.dart';
 import 'package:composite_template_method_practice/models/employee_model/employee_model.dart';
 import 'package:composite_template_method_practice/presentation/providers/whole_employees_state.dart';
-import 'package:meta/meta.dart';
 
 class WholeEmployeesCubit extends Cubit<WholeEmployeesState> {
   WholeEmployeesCubit() : super(WholeEmployeesState.initial());

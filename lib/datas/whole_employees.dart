@@ -70,6 +70,14 @@ List<EmployeeModel> wholeEmployees = [
     companies: [],
   ),
   const EmployeeModel(
+    name: '김혁준',
+    age: 37,
+    gender: EnumGender.male,
+    department: EnumDepartment.management,
+    absentStatus: EnumAbsentStatus.none,
+    companies: [],
+  ),
+  const EmployeeModel(
     name: '서원민',
     age: 35,
     gender: EnumGender.female,
